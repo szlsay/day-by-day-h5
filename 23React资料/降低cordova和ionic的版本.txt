@@ -1,0 +1,15 @@
+方法一：升级android sdk的版本
+
+
+
+方法二：降低版本
+npm remove ionic cordova -g
+
+npm  install  ionic@2.0.0  -g
+npm  install cordova@6.3.1  -g
+
+
+ionic  start  app
+cd  app
+ionic platform add android
+ionic build android
